@@ -1,0 +1,29 @@
+{
+  "name": "react-typescript-webpack-stub",
+  "version": "1.0.0",
+  "description": "template for a minimal project that uses react, typescript and webpack",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca Ceccagnoli",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "css-loader": "^5.2.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
+}
